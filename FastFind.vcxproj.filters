@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FastFind.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Detect\SystemInfo.cpp">
+      <Filter>Detect</Filter>
+    </ClCompile>
+    <ClCompile Include="Detect\Thread.cpp">
+      <Filter>Detect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="AboutDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Detect\Thread.h">
+      <Filter>Detect</Filter>
+    </ClInclude>
+    <ClInclude Include="Detect\SystemInfo.h">
+      <Filter>Detect</Filter>
+    </ClInclude>
+    <ClInclude Include="MFT\miscs.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="MFT\string_x.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="MFT\EnumMFT.h">
+      <Filter>MFT</Filter>
+    </ClInclude>
+    <ClInclude Include="MFT\ntfs.h">
+      <Filter>MFT</Filter>
+    </ClInclude>
+    <ClInclude Include="MFT\MemoryList.h">
+      <Filter>MFT</Filter>
+    </ClInclude>
+    <ClInclude Include="RenewDataThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FindTread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FastFind.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FastFind.ico" />
+    <None Include="res\bitmap1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{2021df5d-2cbf-493a-b316-9b4a4a6b5a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detect">
+      <UniqueIdentifier>{5c7a051e-efb9-4507-ae3c-de3200727fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{0eb36b41-e3fa-4fca-8ea3-8c74685ed6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFT">
+      <UniqueIdentifier>{6cc95e0c-cd13-4a0f-a211-dad7a8fa84db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{a68cc570-d272-4d68-9dc6-f1b4df711941}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
